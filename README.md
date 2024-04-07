@@ -18,4 +18,19 @@ All images and logo copyrights belong to Sara Mohsenpour as a owner of "Jica pub
 
 style="--bs-bg-opacity: .5;"
 
+font-weight-bold
+font-weight-normal
+font-weight-light
+font-italic
 
+Normal weight: fw-normal
+Italic: fst-italic
+Bold and italic: fw-bold fst-italic
+
+body {
+  font: 1rem/1.5 var(--font-family-sans-serif);
+}
+
+a {
+  color: var(--blue);
+}
