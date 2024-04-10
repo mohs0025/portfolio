@@ -61,3 +61,14 @@
 }
 
 
+
+/* contact page main banner section */
+.banner-contact {
+    background: url(../images/banner-contact.jpg) no-repeat center;
+    background-size: cover;
+    width: 100vw; /* Set width to 100vw (viewport width) */
+    height: 100vh; /* Set height to 100vh (viewport height) */
+    /* background-attachment: fixed; */
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+}
