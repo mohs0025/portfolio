@@ -17,10 +17,10 @@
     <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css>
 
 
-
     <!-- link CSS -->
     <!-- <link rel="stylesheet" href="css/main.css"> -->
     <link rel="stylesheet" href="css/origin.css">
+
 </head>
 
 
@@ -42,16 +42,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-white active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link text-white active fw-bold" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="about.html">About</a>
+                            <a class="nav-link text-white fw-bold" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                            <a class="nav-link text-white fw-bold" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="contact.html">contact</a>
+                            <a class="nav-link text-white fw-bold" href="contact.html">contact</a>
                         </li>
                     </ul>
 
@@ -85,46 +85,54 @@
         </section>
 
 
-<!-- text section -->
+        <!-- text section -->
         <section class="container-xl py-5" id="contact">
-            <div class="pb-5">
-            <h2 class="pb-3">Let's Begin with a Conversation, Over Coffee Perhaps?</h2>
-            <p>We're Fluent in Both English and French, Offering a Personalized Experience. Together, We'll Tailor a Strategy to Showcase LuxPersia's Masterpieces. From Research to Creation, We Bring Your Vision to Life, Ensuring Your Investment Stands Out. Welcome to LuxPersia, Where Creativity Knows No Bounds.</p>
-        </div>
+            <div class="pb-4">
+                <h2 class="pb-3">Let's Begin with a Conversation, Over Coffee Perhaps?</h2>
+                <p>We're Fluent in Both English and French, Offering a Personalized Experience. Together, We'll Tailor a Strategy to Showcase LuxPersia's Masterpieces. From Research to Creation, We Bring Your Vision to Life, Ensuring Your Investment Stands Out. Welcome to LuxPersia, Where Creativity Knows No Bounds.
+                </p>
+            </div>
+
             <div class="row g-5">
-                
                 <div class="col-12 col-md-6">
                     <h3 class="pb-3">Send us a message</h3>
                     <form>
                         <div class="mb-3">
-                            <label for="inputName" class="form-label">Full Name</label>
-                            <input type="text" class="form-control rounded-0" id="inputName">
+                            <label for="inputName" class="form-label visually-hidden">Full Name</label>
+                            <input type="text" class="form-control rounded-0 custom-input" id="inputName"
+                                placeholder="Full Name" aria-label="Full Name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label visually-hidden">Email</label>
+                            <input type="email" class="form-control rounded-0 custom-input" id="inputEmail"
+                                placeholder="Email" aria-label="Email">
                         </div>
                         <div class="mb-3">
-                            <label for="inputEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control rounded-0" id="inputEmail">
-                        </div>
-                        <div class="mb-3">
-                            <label for="inputMessage" class="form-label">Message</label>
-                            <textarea type="text" class="form-control rounded-0" id="inputMessage" cols="30"
-                                rows="5"></textarea>
+                            <label for="inputMessage" class="form-label visually-hidden">Message</label>
+                            <textarea type="text" class="form-control rounded-0 custom-input" id="inputMessage"
+                                cols="30" rows="7" placeholder="Message"></textarea>
                         </div>
                         <button type="submit" class="btn btn-dark rounded-0">Send</button>
                     </form>
                 </div>
-                
+
                 <div class="col-12 col-md-6">
                     <h3>Location</h3>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5607.888860774403!2d-75.754926!3d45.349934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0724078bd53f%3A0xf4efcedbc482379b!2sWoodline%20Building!5e0!3m2!1sen!2sca!4v1712727593366!5m2!1sen!2sca" class="w-100" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5607.888860774403!2d-75.754926!3d45.349934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0724078bd53f%3A0xf4efcedbc482379b!2sWoodline%20Building!5e0!3m2!1sen!2sca!4v1712727593366!5m2!1sen!2sca"
+                        class="w-100" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
+
         </section>
 
     </main>
 
 
     <!-- footer section -->
-    <footer class=" container-xltext-primary py-4 mt-5" style="background-color: #D9D9D9; font-size: smaller;">
+    <footer class=" container-xltext-primary py-4 mt-0" style="background-color: #D9D9D9; font-size: smaller;">
         <div class="">
             <!-- For small screens, each section will be in its own row -->
             <div class="row align-items-center">
@@ -138,8 +146,7 @@
                 <!-- Copyright text section -->
                 <div class="col-12 col-sm-4 text-center">
                     <p><strong>&copy; All images belong to Sara Mohsenpour</strong><br><strong>OTTAWA — STUDIO:</strong>
-                        1534
-                        Baseline Road Ottawa, ON</p>
+                        1534 Baseline Road Ottawa, ON <a href="#top" role="link">Back to Top</a></p>
                 </div>
 
                 <!-- Social icons section -->

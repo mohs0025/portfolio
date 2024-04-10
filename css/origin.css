@@ -12,7 +12,7 @@
 
 /* primary: dark yellow, secondary: light yellow */
 :root{
-    --bs-primary: #2D7170;
+    --bs-primary: #1d504f;
     --bs-primary-rgb: 45, 113,112;
     --bs-secondary: #73B19C;
     --bs-secondary-rgb: 115, 177,156;
@@ -25,7 +25,7 @@
 
 /* hero section */
 .banner {
-    background: url(../images/screen.jpg) no-repeat center;
+    background: url(../images/screen-derivatives/screen-1440_x_771.jpg) no-repeat center;
     background-size: cover;
     width: 100vw; /* Set width to 100vw (viewport width) */
     height: 100vh; /* Set height to 100vh (viewport height) */
@@ -38,7 +38,7 @@
 
 /* hero section */
 .banner-more {
-    background: url(../images/chat-fix.jpg) no-repeat center;
+    background: url(../images/chat-fix-derivatives/chat-fix-1440_x_441.jpg) no-repeat center;
     background-size: cover;
     height: 50vh;
     /* Set height to 100vh (viewport height) */
@@ -51,7 +51,7 @@
 
 /* about page main banner section */
 .banner-about {
-    background: url(../images/mooncity.jpg) no-repeat center;
+    background: url(../images/mooncity-derivatives/mooncity-1440_x_771.jpg) no-repeat center;
     background-size: cover;
     width: 100vw; /* Set width to 100vw (viewport width) */
     height: 100vh; /* Set height to 100vh (viewport height) */
@@ -64,7 +64,7 @@
 
 /* contact page main banner section */
 .banner-contact {
-    background: url(../images/banner-contact.jpg) no-repeat center;
+    background: url(../images/banner-contact-derivatives/banner-contact-1440_x_771.jpg) no-repeat center;
     background-size: cover;
     width: 100vw; /* Set width to 100vw (viewport width) */
     height: 100vh; /* Set height to 100vh (viewport height) */
@@ -72,3 +72,17 @@
     margin: 0; /* Remove any margin */
     padding: 0; /* Remove any padding */
 }
+
+
+.custom-input {
+    background-color: var(--bs-secondary);
+    color: white; 
+}
+
+
+/* change placeholder text colo */
+input::placeholder,
+textarea::placeholder {
+        color: white !important; 
+    }
+
