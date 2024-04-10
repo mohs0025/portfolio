@@ -1,11 +1,230 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portgolio - Sara Mohsenpour</title>
+
+  <!-- boostrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap Icon Library -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- setting icons -->
+  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css>
+
+
+
+  <!-- link CSS -->
+  <!-- <link rel="stylesheet" href="css/main.css"> -->
+  <link rel="stylesheet" href="css/origin.css">
 </head>
+
+
+
+
 <body>
+  <!-- navigation -->
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+      <!-- full width=xl or md, provide the size -->
+      <div class="container-md">
+        <!-- add logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logogreen.png" alt="palletory logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">contact</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary text-white border border-white" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                class="bi bi-search-heart-fill" viewBox="0 0 16 16">
+                <path
+                  d="M6.5 13a6.47 6.47 0 0 0 3.845-1.258h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1A6.47 6.47 0 0 0 13 6.5 6.5 6.5 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13m0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018" />
+              </svg></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+
+
+  <main>
+    <!-- Hero-banner section -->
+    <section class="banner-about d-flex align-items-center justify-content-center" id="home">
+      <div class="container-xl bg-secondary text-white text-center py-4 text-wrap fs-5 px-5" style="--bs-bg-opacity: .7; width: 60%;">
+        <h1 class="display-1">Artistic Creative,<br>Inviting Spaces</h1>
+        <p>With a legacy spanning over a decade, LuxPersia stands as a beacon of excellence in the world of Persian art!</p>
+        <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 py-2" href="#" role="button">Read More</a>
+      </div>
+    </section>
+
+
+<!-- why Us? section -->
+    <!-- Ottawa's Most Opulent Persian Art Gallery section -->
+    <section class="mt-5 pt-4" id="about">
+      <div class="container-xl">
+
+        <div class="row align-items-center">
+          <!-- Header -->
+          <div class="position-relative col-sm-6 mb-3">
+            <h2 class="fw-bold text-center text-sm-start">Why US?</h2>
+            <h3  class="pt-4">Well, Tradition <br> is Our Tapestry of Excellence</h3>
+            <p>With a legacy spanning over a decade, LuxPersia stands as a beacon of excellence in the world of Persian art. Our commitment to quality, professionalism, and innovation has propelled us forward, ensuring that every experience with LuxPersia is nothing short of exceptional. We blend tradition with modernity, offering a seamless journey into the rich tapestry of Iranian artistry. Let us guide you through the extraordinary world of LuxPersia, where every masterpiece tells a story of cultural richness and timeless beauty.</p>
+            <h3 class="pt-3">The Essence of LuxPersia</h3>
+            <p>At LuxPersia, creativity isn't just a skill - it's our essence. For over a decade, we've honed our craft, perfecting the art of presenting Persian masterpieces in the most captivating and innovative ways. Our secret weapon? A passion for creativity that infuses every aspect of our work, ensuring that each piece stands out from the crowd with unparalleled brilliance. Experience the essence of LuxPersia and elevate your appreciation for Persian art to new heights.</p>
+            
+          </div>
+          <!-- text -->
+          <!-- <div class="order-sm-last col-md-12 " >
+          </div> -->
+          <!-- Picture -->
+          <div class="col-sm-6 order-sm-first mb-3 justify-content-center">
+            <div class="position-relative">
+              <img src="./images/contact-lg.jpg" alt="untitled artwork, a paint of a man-bird king"
+                class="img-fluid w-100">
+              <div class="position-absolute bottom-0 start-0 w-100 p-2 m-0"
+                style="height: 50%; background: linear-gradient(to top,black, rgba(255, 255, 255, 0));">
+              </div>
+              <div class="position-absolute bottom-0 start-0 w-100 px-4 m-0 text-white">
+                <p class="fst-italic mb-0">Untitled</p>
+                <p class="fw-bold">Artist: Saed Farsi Rahimabadi</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+<!-- The Essence of LuxPersia -->
+    <section class="bg-secondary mt-5" id="about">
+      <div class="container-xl">
+        <h3 class="py-4 text-center fw-bold">The Essence of LuxPersia</h3>
+        <div class="row">
+          <!-- Sara -->
+          <div class="col-12 col-sm-4 mb-3">
+            <div class="position-relative">
+              <img src="./images/sara.jpg" alt="a picture of Sara, the visionary owner"
+                class="img-fluid rounded-3">
+              <div class="px-4 text-center">
+                <p class="fw-bold fs-4 mb-0 mt-3">SARA</p>
+                <p class="fst-italic text-white">The Visionary Owner</p>
+                <p>Sara, the owner, ensures it's a sanctuary for Persian art lovers with a clear vision.</p>
+              </div>
+            </div>
+          </div>
+          <!-- ANITA -->
+          <div class="col-12 col-sm-4 mb-3">
+            <div class="position-relative">
+              <img src="./images/anita.jpg" alt="a picture of Anita, the curator of artistic excellence"
+                class="img-fluid rounded-3">
+              
+              <div class="px-4 text-center">
+                <p class="fw-bold fs-4 mb-0 mt-3">ANITA</p>
+                <p class="fst-italic text-white">The Curator of Artistic Excellence</p>
+                <p>Anita selects only the finest treasures, showcasing her discerning eye for Persian craftsmanship.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Mingyang -->
+          <div class="col-12 col-sm-4 mb-3">
+            <div class="position-relative">
+              <img src="./images/mz.jpg" alt="untitles artwork of a man, the moon and two birds"
+                class="img-fluid rounded-3">
+              
+              <div class="px-4 text-center">
+                <p class="fw-bold fs-4 mb-0 mt-3">Mingyang</p>
+                <p class="fst-italic text-white">The Dynamic Sales Manager</p>
+                <p>MZ builds lasting relationships, ensuring seamless and enriching interactions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<!-- footer section -->
+
+    <footer class="text-primary py-4 mt-5" style="background-color: #D9D9D9; font-size: smaller;">
+      <div class="container-xl">
+        <!-- For small screens, each section will be in its own row -->
+        <div class="row align-items-center">
+          <!-- Logo section -->
+          <div class="col-12 col-sm-4 mb-3 text-center">
+            <a class="navbar-brand d-inline-block" href="index.html">
+              <img src="images/logogreen.png" alt="palletory logo" class="align-middle">
+            </a>
+          </div>
     
+          <!-- Copyright text section -->
+          <div class="col-12 col-sm-4 text-center">
+            <p><strong>&copy; All images belong to Sara Mohsenpour</strong><br><strong>OTTAWA — STUDIO:</strong> 1534 Baseline Road Ottawa, ON</p>
+          </div>
+    
+          <!-- Social icons section -->
+          <div class="col-12 col-sm-4 text-center" style="font-size: 150%;">
+            <!-- Add link to icons -->
+            <div class="d-flex justify-content-center">
+              <a href="https://www.facebook.com" aria-label="Facebook" class="text-decoration-none me-2"><i class="fab fa-facebook" aria-hidden="true" style="color: var(--bs-primary);"></i></a>
+              <a href="https://twitter.com" aria-label="Twitter" class="text-decoration-none me-2"><i class="fab fa-twitter" aria-hidden="true" style="color: var(--bs-primary);"></i></a>
+              <a href="https://www.instagram.com" aria-label="Instagram" class="text-decoration-none"><i class="fab fa-instagram" aria-hidden="true" style="color: var(--bs-primary);"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- add Boostrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+
 </body>
+
+
+
+
+</html>
+
 </html>

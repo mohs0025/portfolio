@@ -13,7 +13,7 @@ Fonts
 - body: Gentium Book Basic, Regular
 
 
-All images and logo copyrights belong to Sara Mohsenpour as a owner of "Jica publishing house" (Tehran, Iran).
+All images and logo copyrights belong to Sara Mohsenpour as a owner of "Jica Publishing House" (Tehran, Iran).
 
 
 style="--bs-bg-opacity: .5;"

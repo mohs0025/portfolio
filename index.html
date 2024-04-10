@@ -13,6 +13,11 @@
   <!-- Bootstrap Icon Library -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+  <!-- setting icons -->
+  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css>
+
+
+
   <!-- link CSS -->
   <!-- <link rel="stylesheet" href="css/main.css"> -->
   <link rel="stylesheet" href="css/origin.css">
@@ -23,15 +28,15 @@
 
 <body>
   <!-- navigation -->
-  <header class="bg-secondary rounded-3" style="--bs-bg-opacity: .7;">
+  <header class="">
     <!-- <nav class="navbar navbar-expand-lg bg-dark bg-body-tertiary"> -->
-    <!-- <nav class="navbar navbar-expand-lg" style="background-color: #73B19C;"> -->
+    <!-- <nav class="navbar navbar-expand-lg" style="background-color: #73B19C; rounded-3; --bs-bg-opacity: .7;"> -->
     <!-- <nav class="navbar navbar-expand-lg bg-body-primary"> -->
-    <nav class="navbar fw-bold navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
       <!-- full width=xl or md, provide the size -->
       <div class="container-md">
         <!-- add logo -->
-        <a class="navbar-brand" href="#home">
+        <a class="navbar-brand" href="index.html">
           <img src="images/logogreen.png" alt="palletory logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -41,10 +46,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-white active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link text-white active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#about">About</a>
+              <a class="nav-link text-white" href="about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#portfolio">Portfolio</a>
@@ -81,7 +86,15 @@
 
 
     <!-- Hero-banner section -->
-    <section class="banner" id="home">
+    <section class="banner d-flex align-items-center justify-content-center" id="home">
+      <div class="container-xl bg-secondary text-white text-center py-4 text-wrap  px-5" style="--bs-bg-opacity: .7; width: 60%;">
+        <h1 class="display-1">Friendly Faces,<br>Artistic Spaces</h1>
+        <p class="fs-5">The extraordinary world of LuxPersia, where every masterpiece tells a story of cultural richness and timeless beauty!</p>
+        <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 py-2" href="about.html" role="button">Read More</a>
+      </div>
+    </section>
+<!--     
+    <section class="banner d-flex align-items-center justify-content-center" id="home">
       <div class="container-xl bg-secondary text-white text-center py-4 mt-5 text-wrap fs-5 px-5"
         style="--bs-bg-opacity: .7; width: 60%; ">
         <h1 class="display-1">Friendly Faces,<br>Artistic Spaces</h1>
@@ -91,28 +104,31 @@
         <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 py-2" href="#" role="button">Read More</a>
       </div>
     </section>
+     -->
+    
 
 
     <!-- Ottawa's Most Opulent Persian Art Gallery section -->
     <section class="mt-5 py-4" id="about">
       <div class="container-xl">
 
-          <div class="row align-items-center">
-            <!-- Header -->
-            <div class="position-relative col-sm-6 mb-3">
-                <h2 class="fw-bold text-center text-sm-start pb-3">Ottawa's Most Opulent Persian Art Gallery</h2>
-                <p>No matter your passion for Persian art or cultural exploration, LuxPersia can elevate your experience
-                  to new heights. Whether you're starting your collection or seeking to enrich your existing one,
-                  LuxPersia offers the treasures and expertise you need to immerse yourself in the splendor of Iranian
-                  artistry.</p>
-            </div>
+        <div class="row align-items-center">
+          <!-- Header -->
+          <div class="position-relative col-sm-6 mb-3">
+            <h2 class="fw-bold text-center text-sm-start pb-3">Ottawa's Most Opulent Persian Art Gallery</h2>
+            <p>No matter your passion for Persian art or cultural exploration, LuxPersia can elevate your experience
+              to new heights. Whether you're starting your collection or seeking to enrich your existing one,
+              LuxPersia offers the treasures and expertise you need to immerse yourself in the splendor of Iranian
+              artistry.</p>
+          </div>
           <!-- text -->
           <!-- <div class="order-sm-last col-md-12 " >
           </div> -->
           <!-- Picture -->
           <div class="col-sm-6 order-sm-first mb-3 justify-content-center">
             <div class="position-relative">
-              <img src="./images/birdman.jpg" alt="untitled artwork, a paint of a man-bird king" class="img-fluid w-100">
+              <img src="./images/birdman.jpg" alt="untitled artwork, a paint of a man-bird king"
+                class="img-fluid w-100">
               <div class="position-absolute bottom-0 start-0 w-100 p-2 m-0"
                 style="height: 50%; background: linear-gradient(to top,black, rgba(255, 255, 255, 0));">
               </div>
@@ -135,7 +151,8 @@
           <!-- the man, the moon and 2 birds -->
           <div class="col-12 col-sm-4 mb-3">
             <div class="position-relative">
-              <img src="./images/square-moon.jpg" alt="untitles artwork of a man, the moon and two birds" class="img-fluid w-100">
+              <img src="./images/square-moon.jpg" alt="untitles artwork of a man, the moon and two birds"
+                class="img-fluid w-100">
               <div class="position-absolute bottom-0 start-0 w-100 p-2 m-0"
                 style="height: 50%; background: linear-gradient(to top,black, rgba(255, 255, 255, 0));">
               </div>
@@ -148,7 +165,8 @@
           <!-- people artwork -->
           <div class="col-12 col-sm-4 mb-3">
             <div class="position-relative">
-              <img src="./images/square-people.jpg" alt="untitled artwork of the people sitting in a restaurant" class="img-fluid w-100">
+              <img src="./images/square-people.jpg" alt="untitled artwork of the people sitting in a restaurant"
+                class="img-fluid w-100">
               <div class="position-absolute bottom-0 start-0 w-100 p-2 m-0"
                 style="height: 50%; background: linear-gradient(to top,black, rgba(255, 255, 255, 0));">
               </div>
@@ -161,7 +179,8 @@
           <!-- the man artwork -->
           <div class="col-12 col-sm-4 mb-4">
             <div class="position-relative">
-              <img src="./images/square-man.jpg" alt="untitled artwork of a man's face and moon in background artwork" class="img-fluid w-100">
+              <img src="./images/square-man.jpg" alt="untitled artwork of a man's face and moon in background artwork"
+                class="img-fluid w-100">
               <div class="position-absolute bottom-0 start-0 w-100 p-2 m-0"
                 style="height: 50%; background: linear-gradient(to top,black, rgba(255, 255, 255, 0));">
               </div>
@@ -183,8 +202,11 @@
         <div class="row align-items-center">
           <!-- Header -->
           <div class="position-relative col-sm-6 mb-3">
-            <h4 class="fw-bold text-center text-sm-start pb-3">Let's Begin with a Conversation, Over Coffee Perhaps?</h4>
-            <p>We're Fluent in Both English and French, Offering a Personalized Experience. Together, We'll Tailor a Strategy to Showcase LuxPersia's Masterpieces. From Research to Creation, We Bring Your Vision to Life, Ensuring Your Investment Stands Out. Welcome to LuxPersia, Where Creativity Knows No Bounds..</p>
+            <h4 class="fw-bold text-center text-sm-start pb-3">Let's Begin with a Conversation, Over Coffee Perhaps?
+            </h4>
+            <p>We're Fluent in Both English and French, Offering a Personalized Experience. Together, We'll Tailor a
+              Strategy to Showcase LuxPersia's Masterpieces. From Research to Creation, We Bring Your Vision to Life,
+              Ensuring Your Investment Stands Out. Welcome to LuxPersia, Where Creativity Knows No Bounds..</p>
           </div>
 
           <!-- Picture -->
@@ -206,23 +228,58 @@
     </section>
 
 
-        <!-- Hero-banner section -->
-        <section class="banner" id="home">
-          <div class="container-xl">
-            <div class="row justify-content-end">
-              <div class="col-lg-6 bg-secondary text-white text-center py-4 mt-5 text-wrap fs-5 px-5"
-                style="--bs-bg-opacity: .7;">
-                <h4 class="fw-bold text-center pb-1">A Place To Be Artist</h4>
-                <p>A Place To Be Artist
-                  our studio serves as a sanctuary where we gather to ideate and craft remarkable creations!</p>
-                <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 py-2" href="#" role="button">More About Us</a>
-              </div>
-            </div>
+    <!-- more-banner section -->
+    <section class="banner-more" id="home">
+      <div class="container-xl">
+        <div class="row ">
+          <div class="col-lg-6 col-md-6 bg-secondary text-white text-center pt-4 text-wrap fs-5 px-5"
+            style="--bs-bg-opacity: .7; height: 50vh;">
+            <h3 class="fw-bold">A Place To Be Artist</h3>
+            <p>A Place To Be Artist our studio serves as a sanctuary where we gather to ideate and craft remarkable
+              creations!</p>
+            <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 py-2" href="#" role="button">More About Us</a>
           </div>
-        </section>
-        
+        </div>
+      </div>
+    </section>
 
-  </main>
+
+<!-- footer section -->
+
+<footer class="text-primary py-4 mt-5" style="background-color: #D9D9D9; font-size: smaller;">
+  <div class="container-xl">
+    <!-- For small screens, each section will be in its own row -->
+    <div class="row align-items-center">
+      <!-- Logo section -->
+      <div class="col-12 col-sm-4 mb-3 text-center">
+        <a class="navbar-brand d-inline-block" href="index.html">
+          <img src="images/logogreen.png" alt="palletory logo" class="align-middle">
+        </a>
+      </div>
+
+      <!-- Copyright text section -->
+      <div class="col-12 col-sm-4 text-center">
+        <p><strong>&copy; All images belong to Sara Mohsenpour</strong><br><strong>OTTAWA — STUDIO:</strong> 1534 Baseline Road Ottawa, ON</p>
+      </div>
+
+      <!-- Social icons section -->
+      <div class="col-12 col-sm-4 text-center" style="font-size: 150%;">
+        <!-- Add link to icons -->
+        <div class="d-flex justify-content-center">
+          <a href="https://www.facebook.com" aria-label="Facebook" class="text-decoration-none me-2"><i class="fab fa-facebook" aria-hidden="true" style="color: var(--bs-primary);"></i></a>
+          <a href="https://twitter.com" aria-label="Twitter" class="text-decoration-none me-2"><i class="fab fa-twitter" aria-hidden="true" style="color: var(--bs-primary);"></i></a>
+          <a href="https://www.instagram.com" aria-label="Instagram" class="text-decoration-none"><i class="fab fa-instagram" aria-hidden="true" style="color: var(--bs-primary);"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+  
+  
+
+
 
 
 
@@ -236,5 +293,10 @@
     crossorigin="anonymous"></script>
 
 </body>
+
+
+
+
+</html>
 
 </html>
