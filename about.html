@@ -4,6 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- add library animate -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
   <title>Portgolio - Sara Mohsenpour</title>
 
   <!-- boostrap CSS -->
@@ -21,6 +28,16 @@
   <!-- link CSS -->
   <!-- <link rel="stylesheet" href="css/main.css"> -->
   <link rel="stylesheet" href="css/origin.css">
+
+  <style>
+    .my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+  </style>
 </head>
 
 
@@ -78,7 +95,7 @@
     <section class="banner-about d-flex align-items-center justify-content-center" id="home">
       <div class="container-xl bg-secondary text-white text-center py-4 text-wrap fs-5 px-5"
         style="--bs-bg-opacity: .7; width: 60%;">
-        <h1 class="display-1">Artistic Creative,<br>Inviting Spaces</h1>
+        <h1 class="my-element animate__animated animate__bounce display-1">Artistic Creative,<br>Inviting Spaces</h1>
         <p>With a legacy spanning over a decade, LuxPersia stands as a beacon of excellence in the world of Persian art!
         </p>
         <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 " href="contact.html" role="button">Contact Us</a>
