@@ -29,6 +29,18 @@
   <!-- link CSS -->
   <!-- <link rel="stylesheet" href="css/main.css"> -->
   <link rel="stylesheet" href="css/origin.css">
+
+  <style>
+    .my-element {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: tada; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-iteration-count: infinite;
+}
+  </style>
+
 </head>
 
 
@@ -97,11 +109,11 @@
     <section class="banner d-flex align-items-center justify-content-center" id="home">
       <div class="container-xl bg-secondary text-white text-center py-4 text-wrap fs-5 px-5"
         style="--bs-bg-opacity: .7; width: 60%;">
-        <h1 class="display-1 my-element animate__animated animate__bounce">Friendly Faces,<br>Artistic Spaces</h1>
+        <h1 class="display-1">Friendly Faces,<br>Artistic Spaces</h1>
         <p>The extraordinary world of LuxPersia, where every masterpiece tells a story of cultural richness and
           timeless beauty!</p>
 
-        <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 py-2" href="about.html" role="button">Read More</a>
+        <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 py-2 my-element animate__animated animate__tada" href="about.html" role="button">Read More</a>
       </div>
     </section>
     <!--     
@@ -263,7 +275,7 @@
             <h3 class="fw-bold">A Place To Be Artist</h3>
             <p>A Place To Be Artist our studio serves as a sanctuary where we gather to ideate and craft remarkable
               creations!</p>
-            <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 py-2" href="about.html" role="button">More About
+            <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 py-2 my-element animate__animated animate__tada" href="about.html" role="button">More About
               Us</a>
           </div>
         </div>

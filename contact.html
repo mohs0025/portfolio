@@ -29,6 +29,16 @@
     <!-- <link rel="stylesheet" href="css/main.css"> -->
     <link rel="stylesheet" href="css/origin.css">
 
+    <style>
+        .my-element {
+      display: inline-block;
+      margin: 0 0.5rem;
+    
+      animation: tada; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 2s; /* don't forget to set a duration! */
+      animation-iteration-count: infinite;
+    }
+      </style>
 </head>
 
 
@@ -83,9 +93,9 @@
         <section class="banner-contact d-flex align-items-center justify-content-center" id="home">
             <div class="container-xl bg-secondary text-white text-center py-4 text-wrap fs-5 px-5"
                 style="--bs-bg-opacity: .7; width: 60%;">
-                <h1 class="display-1 my-element animate__animated animate__bounce">Inviting Home,<br>Engaging Space</h1>
+                <h1 class="display-1">Inviting Home,<br>Engaging Space</h1>
                 <p>Let's Begin with a Conversation, Over Coffee Perhaps?</p>
-                <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 " href="index.html" role="button">Our
+                <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 my-element animate__animated animate__tada" href="index.html" role="button">Our
                     Portfolio</a>
             </div>
         </section>
@@ -119,7 +129,7 @@
                             <textarea type="text" class="form-control rounded-0 custom-input" id="inputMessage"
                                 cols="30" rows="7" placeholder="Message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-dark rounded-0">Send</button>
+                        <button type="submit" class="btn btn-dark rounded-0 my-element animate__animated animate__tada">Send</button>
                     </form>
                 </div>
 

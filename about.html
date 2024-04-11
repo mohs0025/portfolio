@@ -34,8 +34,9 @@
   display: inline-block;
   margin: 0 0.5rem;
 
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation: tada; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
+  animation-iteration-count: infinite;
 }
   </style>
 </head>
@@ -95,10 +96,10 @@
     <section class="banner-about d-flex align-items-center justify-content-center" id="home">
       <div class="container-xl bg-secondary text-white text-center py-4 text-wrap fs-5 px-5"
         style="--bs-bg-opacity: .7; width: 60%;">
-        <h1 class="my-element animate__animated animate__bounce display-1">Artistic Creative,<br>Inviting Spaces</h1>
+        <h1 class="display-1">Artistic Creative,<br>Inviting Spaces</h1>
         <p>With a legacy spanning over a decade, LuxPersia stands as a beacon of excellence in the world of Persian art!
         </p>
-        <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 " href="contact.html" role="button">Contact Us</a>
+        <a class="btn btn-primary rounded-0 bg-dark border-0 px-3 my-element animate__animated animate__tada" href="contact.html" role="button">Contact Us</a>
       </div>
     </section>
 
@@ -195,9 +196,9 @@
           <div class="col-12 col-sm-4 mb-3">
             <div class="position-relative">
               <img
-              srcset="./images/MZ-derivatives/MZ-480_x_480.jpg, ./images/MZ-derivatives/MZ-960_x_960.jpg 2x, ./images/MZ-derivatives/MZ-1440_x_1440.jpg 3x"
-              src="./images/MZ-derivatives/MZ-1440_x_1440.jpg"
-              alt="a picture of MZ, the dynamic sales manager"
+              srcset="./images/mz-derivatives/mz-480_x_480.jpg, ./images/mz-derivatives/mz-960_x_960.jpg 2x, ./images/mz-derivatives/mz-1440_x_1440.jpg 3x"
+              src="./images/mz-derivatives/mz-1440_x_1440.jpg"
+              alt="a picture of Mingyang, the dynamic sales manager"
               class="img-fluid rounded-3">
               <div class="px-4 text-center">
                 <p class="fw-bold fs-4 mb-0 mt-3">Mingyang</p>
